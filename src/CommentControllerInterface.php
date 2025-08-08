@@ -3,6 +3,7 @@
 namespace Laravelista\Comments;
 
 use Illuminate\Http\Request;
+use Laravelista\Comments\Comment;
 
 interface CommentControllerInterface
 {
