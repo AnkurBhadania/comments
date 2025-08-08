@@ -97,5 +97,9 @@ class ServiceProvider extends LaravelServiceProvider
             __DIR__ . '/../config/comments.php',
             'comments'
         );
+        $this->app->bind(
+            CommentControllerInterface::class,
+            CommentController::class
+        );
     }
 }
